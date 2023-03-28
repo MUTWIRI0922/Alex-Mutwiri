@@ -1,0 +1,49 @@
+
+ul{ 
+    list-style: none;
+   margin:0;
+   padding: 0;
+  margin-top:2% ; 
+}
+ li {
+     float: left;
+     
+ }
+ li a{
+    text-decoration: none;
+     padding: 25px;
+     color: blue;
+ }
+ li a:hover:not(.active) {
+   color: darkmagenta;
+}
+ .mypic{
+     border-radius: 25px;
+ }
+ .carrier{
+     position: absolute;
+     top: 15px;
+     right: 5%;
+     text-align: center;
+     color: rgb(36, 8, 62);
+
+ }
+ .welcome{
+    width: 500px;
+    height: 500px;
+    top: 5%;
+    margin-left: 150px;
+ }
+ .slideshow{
+     margin: 10%;
+     left: 60px;
+     
+ }
+ .footer{
+     width: 100% ;
+     background-color: darkseagreen;
+     bottom: 100px;
+     margin-left: 0;
+     margin-right: 0;
+     column-count: 2;
+ }
